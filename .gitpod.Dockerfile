@@ -5,4 +5,4 @@ RUN bash -cl "cargo install wasm-pack && curl https://wasmtime.dev/install.sh -s
 RUN wget "https://github.com/CraneStation/wasi-sdk/releases/download/wasi-sdk-8/wasi-sdk_8.0_amd64.deb" \
     && sudo dpkg -i wasi-sdk_8.0_amd64.deb
 
-RUN echo -e "\nexport PATH=$PATH:/opt/wasi-sdk/bin" >> ~/.bashrc
+ENV PATH="$PATH:/opt/wasi-sdk/bin"
