@@ -6,7 +6,7 @@ pub fn render(input: &str) -> String {
     let parser = Parser::new(input);
     let mut html_output = String::new();
     html::push_html(&mut html_output, parser);
-    return html_output.trim().to_string();
+    return cli_kit::ansi::color_codes::red(html_output.trim().to_string(), true, true);
 }
 
 #[wasm_bindgen]

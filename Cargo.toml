@@ -16,3 +16,4 @@ crate-type = ["cdylib"]
 [dependencies]
 pulldown-cmark = { version = "0.5.3", default-features = false }
 wasm-bindgen = "=0.2.55"
+cli_kit = "0.1.1"
