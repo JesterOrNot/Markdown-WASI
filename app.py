@@ -1,4 +1,4 @@
 import wasmtime
-import Markdown-WASI as md
+import markdown
 
-md.render("# Hello")
+print(markdown.render("# Hello"))
