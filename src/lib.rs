@@ -6,7 +6,7 @@ pub fn md_to_html(input: &str) -> String {
     let parser = Parser::new(input);
     let mut html_output = String::new();
     html::push_html(&mut html_output, parser);
-    return cli_kit::ansi::color_codes::red(html_output.trim().to_string(), true, true);
+    return html_output.trim().to_string();
 }
 
 #[wasm_bindgen]
