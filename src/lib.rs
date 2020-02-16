@@ -9,8 +9,6 @@ pub fn md_to_html(input: &str) -> String {
     return cli_kit::ansi::color_codes::red(html_output.trim().to_string(), true, true);
 }
 
-
-
 #[wasm_bindgen]
 pub fn html_to_md(input: &str) -> String {
     html2md::parse_html(input).trim().to_string()
