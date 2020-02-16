@@ -13,3 +13,5 @@ RUN bash -cl "git clone \"https://github.com/emscripten-core/emsdk.git\" \
     && source ./emsdk_env.sh"
 
 ENV PATH="$PATH:/opt/wasi-sdk/bin"
+
+RUN echo -e "source /home/gitpod/emsdk/emsdk_env.sh\nclear\n" >> ~/.bashrc
