@@ -4,6 +4,7 @@ version = "0.1.2"
 description = "Cross programming language markdown operations with WASI"
 authors = ["Sean Hellum <seanhellum45@gmail.com>"]
 edition = "2018"
+license = "MIT"
 
 [package.metadata.wasm-pack.profile.dev]
 wasm-opt = false
