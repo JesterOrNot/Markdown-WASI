@@ -4,4 +4,4 @@
 [![npm](https://img.shields.io/npm/v/markdown_wasi)](https://www.npmjs.com/package/markdown_wasi)
 
 
-Cross platform markdown operations with WASI
+Cross programming language markdown operations with WASI
