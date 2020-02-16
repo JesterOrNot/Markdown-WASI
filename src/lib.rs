@@ -13,3 +13,8 @@ pub fn render(input: &str) -> String {
 pub fn add(a: i32, b: i32) -> i32 {
     a + b
 }
+
+#[wasm_bindgen]
+pub fn html_md(input: &str) -> String {
+    html2md::parse_html(input).trim().to_string()
+}
