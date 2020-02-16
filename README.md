@@ -5,3 +5,15 @@
 [![Crates.io](https://img.shields.io/crates/v/markdown_wasi.svg)](https://crates.io/crates/markdown_wasi)
 
 Cross programming language markdown operations with WASI
+
+## Rust
+Add the following to the dependencies section of your `Cargo.toml`
+```toml
+markdown_wasi = "0.1.2"
+```
+
+## Node
+Run
+```bash
+npm i markdown_wasi
+```
