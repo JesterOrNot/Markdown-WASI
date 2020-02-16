@@ -4,5 +4,5 @@ ports:
   - port: 8000
     onOpen: open-preview
 tasks:
-  - init: pip3 install wasmtime && WASM_INTERFACE_TYPES=1 wasm-pack build
+  - init: make
     command: python3 app.py
