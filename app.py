@@ -1,6 +1,5 @@
 import wasmtime
 import markdown
 
-print(markdown.render("# Hello"))
-print(markdown.add(2, 4))
-print(markdown.html_md("<strong>Hello</strong>"))
+print(markdown.md_to_html("# Hello"))
+print(markdown.html_to_md("<strong>Hello</strong>"))
