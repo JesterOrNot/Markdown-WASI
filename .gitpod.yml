@@ -1,5 +1,4 @@
-image:
-  file: .gitpod.Dockerfile
+image: jesterornot/gitpod-wasm
 ports:
   - port: 8000
     onOpen: open-preview
